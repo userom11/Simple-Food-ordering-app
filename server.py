@@ -7,7 +7,7 @@ import socket
 # defining host ip
 host = ('127.0.0.1')
 # port to bind to (work on)
-port = ('8080')
+port = ('37373')
 # maximum connections
 max_conn=int(1)
 
