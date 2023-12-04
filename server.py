@@ -17,7 +17,3 @@ sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 sock.bind((host, port))
 # listenning for connection requests. Limited to 2 connect at a time.
 sock.listen(max_conn)
-
-def client_initial_connect():
-    sock.send("Welcome to PyResturant" \n "We offer Burritos or Fried Mushrooms."\n "For beverages we have: water ofcourse,Sprite and Coca-cola" \n " For desert we offer: Ice cream, Brownies ;) and Cake. ")
-
